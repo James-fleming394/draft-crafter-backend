@@ -23,8 +23,8 @@ James.Fleming394@gmail.com
 
 1. `MERN Stack`
 2. `Javascript`
-2. `Axios`
-3. `CSS`
+3. `Axios`
+4. `CSS`
 
 ## Running the Project
 
