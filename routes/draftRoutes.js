@@ -11,19 +11,19 @@ const {
 } = require('../controllers/draftController');
 
 // Route to create a new draft
-router.post('/drafts', createDraft);
+router.post('/draft', createDraft);
 
 // Route to get available (unpicked) players
-router.get('/drafts/available-players', getAvailablePlayers);
+router.get('/draft/available-players', getAvailablePlayers);
 
 // Route to update the draft order
-router.put('/drafts/:draftId/order', updateDraftOrder);
+router.put('/draft/:draftId/order', updateDraftOrder);
 
 // Route to make a pick in the draft
-router.post('/drafts/:draftId/picks', makePick);
+router.post('/draft/:draftId/picks', makePick);
 
 // Route to handle a trade
-router.post('/drafts/:draftId/trades', handleTrade);
+router.post('/draft/:draftId/trades', handleTrade);
 
 // Export the router
 module.exports = router;
