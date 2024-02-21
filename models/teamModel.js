@@ -4,7 +4,7 @@ const Schema = mongoose.Schema;
 // Regular expression for URL validation
 const urlRegex = /^(https?:\/\/(?:www\.|(?!www))[a-zA-Z0-9][a-zA-Z0-9-]+[a-zA-Z0-9]\.[^\s]{2,}|www\.[a-zA-Z0-9][a-zA-Z0-9-]+[a-zA-Z0-9]\.[^\s]{2,}|https?:\/\/(?:www\.|(?!www))[a-zA-Z0-9]+\.[^\s]{2,}|www\.[a-zA-Z0-9]+\.[^\s]{2,})$/;
 
-const teamSchema = new Schema({
+const TeamSchema = new Schema({
     name: { type: String, required: true },
     record: { type: String, required: true },
     picture: { type: String, required: true, validate: {
