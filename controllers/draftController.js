@@ -1,6 +1,6 @@
-const DraftMachine = require('../models/DraftMachine');
-const Team = require('../models/Team');
-const Player = require('../models/Player');
+const DraftMachine = require('../models/draftMachineModel');
+const Team = require('../models/teamModel');
+const Player = require('../models/playerModel');
 
 // Create a new draft
 exports.createDraft = async (req, res) => {
