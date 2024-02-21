@@ -9,7 +9,8 @@ Created by James Fleming
 James.Fleming394@gmail.com
 
 # Description
-        DraftCrafter is an online resource and tool designed for those who are passionate about the NFL draft by giving them the tools to simulate their own mock draft. 
+
+DraftCrafter is an online resource and tool designed for those who are passionate about the NFL draft by giving them the tools to simulate their own mock draft. 
 
 # [Design Document](https://docs.google.com/document/d/17fX8nIbcCjZgDAbehvOOl6Dfl5FriTQflNYd4fYrr-Q/edit?usp=sharing)
 
