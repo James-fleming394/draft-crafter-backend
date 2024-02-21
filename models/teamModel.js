@@ -13,7 +13,12 @@ const TeamSchema = new Schema({
         },
         message: props => `${props.value} is not a valid URL!`
         } },
-    teamNeeds: { type: String, required: true, enum: ['QB', 'RB', 'WR', 'TE', 'OT', 'G', 'C', 'EDGE', 'DL', 'ILB', 'OLB', 'CB', 'S'] },
+    teamNeeds1: { type: String, required: true, enum: ['QB', 'RB', 'WR', 'TE', 'OT', 'G', 'C', 'EDGE', 'DL', 'ILB', 'OLB', 'CB', 'S'] },
+    teamNeeds2: { type: String, required: true, enum: ['QB', 'RB', 'WR', 'TE', 'OT', 'G', 'C', 'EDGE', 'DL', 'ILB', 'OLB', 'CB', 'S'] },
+    teamNeeds3: { type: String, required: true, enum: ['QB', 'RB', 'WR', 'TE', 'OT', 'G', 'C', 'EDGE', 'DL', 'ILB', 'OLB', 'CB', 'S'] },
+    teamNeeds4: { type: String, required: false, enum: ['QB', 'RB', 'WR', 'TE', 'OT', 'G', 'C', 'EDGE', 'DL', 'ILB', 'OLB', 'CB', 'S'] },
+    teamNeeds5: { type: String, required: false, enum: ['QB', 'RB', 'WR', 'TE', 'OT', 'G', 'C', 'EDGE', 'DL', 'ILB', 'OLB', 'CB', 'S'] },
+    teamNeeds6: { type: String, required: false, enum: ['QB', 'RB', 'WR', 'TE', 'OT', 'G', 'C', 'EDGE', 'DL', 'ILB', 'OLB', 'CB', 'S'] },
     picks2024: [{
         round: Number,
         pickNumber: Number,

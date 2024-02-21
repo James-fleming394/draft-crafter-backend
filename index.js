@@ -15,7 +15,7 @@ app.use(bodyParser.json());
 // Routes
 app.use('/api/players', playerRoutes);
 app.use('/api/teams', teamRoutes);
-app.use('/api/drafts', draftRoutes);
+app.use('/api/draft', draftRoutes);
 
 // Express middleware and routes will go here
 
