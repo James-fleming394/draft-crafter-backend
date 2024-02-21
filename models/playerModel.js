@@ -35,7 +35,8 @@ const PlayerSchema = new Schema({
     playerCompCeiling: { type: String, required: true },
     playerCompFloor: { type: String, required: true },
     roundGrade: { type: String, required: true },
-    ranking: { type: Number, required: true },
+    rankingOverall: { type: Number, required: true },
+    rankingPosition: { type: Number, required: true },
     rating: { type: Map, of: Number, default: {} },
 });
 
