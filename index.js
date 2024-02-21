@@ -13,7 +13,6 @@ app.use(bodyParser.json());
 // Routes
 app.use('/api/players', playerRoutes);
 
-
 // Express middleware and routes will go here
 
 
