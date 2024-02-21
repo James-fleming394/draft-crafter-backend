@@ -1,4 +1,4 @@
-const Player = require('../models/model.js');
+const Player = require('../models/playerModel.js');
 
 // Get all players
 exports.getAllPlayers = async (req, res) => {
