@@ -25,7 +25,7 @@ const PlayerSchema = new Schema({
             return urlRegex.test(v);
         },
         message: props => `${props.value} is not a valid URL!`
-        } },  }, 
+        } },
     bestFit1: { type: String, required: true },
     bestFit2: { type: String, required: true },
     bestFit3: { type: String, required: true },
